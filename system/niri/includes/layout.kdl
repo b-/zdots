@@ -1,10 +1,4 @@
 layout {
-    gaps 16
-
-    border {
-        off
-    }
-
     center-focused-column "never"
 
     preset-column-widths {

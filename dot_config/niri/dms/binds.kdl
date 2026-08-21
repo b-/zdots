@@ -3,16 +3,8 @@ binds {
         spawn "dms" "ipc" "call" "spotlight" "toggle"; 
     }
 
-    Mod+V hotkey-overlay-title="Clipboard Manager" { 
-        spawn "dms" "ipc" "call" "clipboard" "toggle"; 
-    }
-
     Mod+M hotkey-overlay-title="Task Manager" { 
         spawn "dms" "ipc" "call" "processlist" "toggle"; 
-    }
-
-    Mod+Comma hotkey-overlay-title="Settings" { 
-        spawn "dms" "ipc" "call" "settings" "toggle"; 
     }
 
     Mod+N hotkey-overlay-title="Notification Center" {

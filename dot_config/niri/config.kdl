@@ -7,11 +7,11 @@
 //  Instead, write your overrides in ~/.config/niri/local.kdl or /etc/niri/local.kdl
 //  If you don't plan on running chezmoi, you can disregard this warning.
 
-// include DankMaterialShell stuff
-include "dms.kdl"
-
 // include top-level settings from the system-wide default config
 include "/usr/share/zirconium/zdots/system/niri/zirconium.kdl"
+
+// include DankMaterialShell stuff
+include "dms.kdl"
 
 // include local user overrides
 include optional=true "local.kdl"
